@@ -1,0 +1,137 @@
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #acc2ff;
+    color: black;
+    line-height: 1.6;
+}
+header {
+    background: #2748b3;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-box {
+    background-color: #f0f4ff;  
+    padding: 20px;               
+    border-radius: 12px;         
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;         
+    line-height: 1.6;           
+}
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e8eaff;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #a8c0ff;
+    text-shadow: 0px 0px 8px #ffffff;
+}
+
+section {
+    width: 75%;
+    margin: 50px auto;
+    background: rgb(210, 210, 250);
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+}
+
+section h1 {
+    color: #2748b3;
+    font-size: 30px;
+    border-left: 5px solid #2748b3;
+    padding-left: 10px;
+}
+
+section h2 {
+    color: #3a3a3a;
+    font-size: 22px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #2748b3;
+    color: white;
+    margin-top: 40px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+.contact-box {
+    background: #ffffff;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.contact-box p strong {
+    color: #2748b3;
+}
+footer p {
+    color: #3a3a3a;
+
+}
+
+footer {
+    padding: 40px;
+    background: #2748b3;
+    color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+footer h1 {
+    color: #2748b3;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+
+html {
+    scroll-behavior: smooth;
+}
